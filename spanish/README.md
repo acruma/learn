@@ -1,39 +1,5 @@
 # Learn Bash, Java, PHP, PowerShell, Python  
 
-[Niveles](https://github.com/acruma/learn/tree/master/spanish#niveles)
-
-[Tutorial](https://github.com/acruma/learn/tree/master/spanish#tutorial)
-
-[Ejercicios](https://github.com/acruma/learn/tree/master/spanish#ejercicios)
-
-# Niveles
-
-[Basic](https://github.com/acruma/learn/tree/master/spanish#basic)
-
-[Basic II](https://github.com/acruma/learn/tree/master/spanish#basic-ii)
-
-#### *Basic*;
-
-Inicialización de documento.
-
-Comentarios.
-
-Variables. ( Tipos básicos )
-
-Impresion en pantalla.
-
-Operaciones. ( Aritméticas y con cadena de caracteres )
-
-Conversiones de tipo de datos.
-
-Documento completo ( DIY - Hazlo tu mismo )
-
-#### *Basic II*;
-
-Arrays 
-
-Bucles ( en proceso )
-
 # Tutorial;  
 
 
