@@ -89,7 +89,7 @@ print(numeros)    #Se mostrará en pantalla [2, 12, 55, 20, 0]
 
 # Agregar elementos
 
-Para añadir un nuevo elemento, tan solo señalaremos la posicion en la que queramos insertarlo y su valor
+Para añadir usaremos `.insert`(  la posición y su valor ). Y para añadir al final de la lista usaremos `.append`( su valor )
 
 ```python
 
