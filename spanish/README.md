@@ -2,11 +2,10 @@
 
 # Tutorial;  
 
-| *Bash* | *Java* | *PHP* | *PowerShell* | *Python* |
-
-|:------:||:------:|:------:|:------:|:------:|
-|[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/bash.md) | [BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/java.md) | [BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/php.md) | [BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/powershell.md) |[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/python.md) |
-|||||[Arrays](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md)|
+ *Bash* | *Java* | *PHP* | *PowerShell* | *Python* 
+--|--|--|--|--
+[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/bash.md)|[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/java.md)|[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/php.md)|[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/powershell.md)|[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/python.md)
+--|--|--|--|[Arrays](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md)
 
 ### *Bash* ; [BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/bash.md) -
 ### *Java*; [BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/java.md) - 
