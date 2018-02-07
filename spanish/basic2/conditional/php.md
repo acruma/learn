@@ -1,24 +1,24 @@
-// aprenda sobre arrays en php
+# Aprenda sobre Condicionales en PHP
 
-// Indice
+# Indice
 
-[Operadores de Comparación](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md//definici%C3%B3n)
+[Operadores de Comparación](https://github.com/acruma/learn/blob/master/spanish/basic2/conditional/php.md#operadores-de-comparaci%C3%B3n)
 
-[Operador AND](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md//sintaais)
+[Operador AND](https://github.com/acruma/learn/blob/master/spanish/basic2/conditional/php.md#operador-and)
 
-[Operador OR](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md//recuento-del-n%C3%Bamero-de-elementos)
+[Operador OR](https://github.com/acruma/learn/blob/master/spanish/basic2/conditional/php.md#operador-or)
 
-[Operador NOT](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md//modificaci%C3%B3n-de-elementos)
+[Operador NOT](https://github.com/acruma/learn/blob/master/spanish/basic2/conditional/php.md#operador-not)
 
-[Combinaciones de operadores](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md//agregar-elementos)
+[Combinaciones de operadores](https://github.com/acruma/learn/blob/master/spanish/basic2/conditional/php.md#combinaciones-de-operadores)
 
-[Sentencia IF](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md//eliminar-elementos)
+[Sentencia IF](https://github.com/acruma/learn/blob/master/spanish/basic2/conditional/php.md#sentencia-if)
 
-[Sentencia IF + ELSE](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md//invertir-el-orden-de-los-elementos)
+[Sentencia IF + ELSE](https://github.com/acruma/learn/blob/master/spanish/basic2/conditional/php.md#sentencia-if--else)
 
-[Sentencias IF anidadas](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md//ordenar-un-array)
+[Sentencias IF anidadas](https://github.com/acruma/learn/blob/master/spanish/basic2/conditional/php.md#sentencias-if-anidadas)
 
-[Recopilación](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md//arrays-multidimensionales)
+[Recopilación](https://github.com/acruma/learn/blob/master/spanish/basic2/conditional/php.md#recopilaci%C3%B3n)
 
 # Operadores de Comparación
 
@@ -99,7 +99,7 @@ $z = !($a === $b) || ($a >= $b && $a !== $b);
 
 ```
 
-# Sentencia IF
+# Sentencia `IF`
 
 `IF` significa `SI (condicional)` en español. Su funcionamiento es simple. Se evalúa una condición, si es verdadera ejecuta un código, si es falsa, ejecuta otro código (o continúa con la ejecución del programa).
 
@@ -127,7 +127,7 @@ if ($variable > 10){
 
 ```
 
-# Sentencia IF + ELSE
+# Sentencia `IF + ELSE`
 
 Como hemos visto hasta ahora si `if` era false, continuaba con el codigo, pero si añadimos la sentencia `else`, siempre que el resultado de `if` sea falso se ejecutará el interior de `else`.
 
@@ -145,7 +145,7 @@ if ($variable > 10) {
 
 ```
 
-# Sentencias IF anidadas.
+# Sentencias `IF` anidadas.
 
 Una sentencia IF anidada sirve para comprobar todos los casos que tengamos previstos en una ejecucion. Y puede acabar con un `else` o no.
 
