@@ -29,12 +29,12 @@ Para comparar dos variables vamos a usar unos operadores, el resultado de estas 
 $x = 5;
 $y = 3;
 
-$z = $x === $y;   // $x es igual y del mismo tipo de dato a $y  			Resultado: False
+$z = $x === $y;   // $x es igual y del mismo tipo de dato a $y  		Resultado: False
 $z = $x !== $y;   // $x no es igual O no es del mismo tipo de dato a $y  	Resultado: True
-$z = $x > $y;     // $x es MAYOR que $y			             				Resultado: True
-$z = $x >= $y;    // $x es MAYOR o IGUAL que $y				 				Resultado: True
-$z = $x < $y;     // $x es MENOR que $y		                				Resultado: False
-$z = $x <= $y;    // $x es MENOR o IGUAL que $y				    			Resultado: False
+$z = $x > $y;     // $x es MAYOR que $y			             		Resultado: True
+$z = $x >= $y;    // $x es MAYOR o IGUAL que $y				 	Resultado: True
+$z = $x < $y;     // $x es MENOR que $y		                		Resultado: False
+$z = $x <= $y;    // $x es MENOR o IGUAL que $y				    	Resultado: False
 
 ```
 
@@ -172,12 +172,12 @@ if ($variable === 5) {
 $x = 5;
 $y = 3;
 
-$z = $x === $y;   // $x es igual y del mismo tipo de dato a $y  			Resultado: False
+$z = $x === $y;   // $x es igual y del mismo tipo de dato a $y  		Resultado: False
 $z = $x !== $y;   // $x no es igual O no es del mismo tipo de dato a $y  	Resultado: True
-$z = $x > $y;     // $x es MAYOR que $y			             				Resultado: True
-$z = $x >= $y;    // $x es MAYOR o IGUAL que $y				 				Resultado: True
-$z = $x < $y;     // $x es MENOR que $y		                				Resultado: False
-$z = $x <= $y;    // $x es MENOR o IGUAL que $y				    			Resultado: False
+$z = $x > $y;     // $x es MAYOR que $y			             		Resultado: True
+$z = $x >= $y;    // $x es MAYOR o IGUAL que $y				 	Resultado: True
+$z = $x < $y;     // $x es MENOR que $y		                		Resultado: False
+$z = $x <= $y;    // $x es MENOR o IGUAL que $y				    	Resultado: False
 
 $f = false;
 $t = true;
