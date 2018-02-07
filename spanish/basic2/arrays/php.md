@@ -1,56 +1,58 @@
-# Aprenda sobre arrays en PHP
+# Aprenda sobre arrays en php
 
 # Indice
 
-[Definición](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#definici%C3%B3n)
+[Definición](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#definici%C3%B3n)
 
-[Sintaxis](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#sintaxis)
+[Sintaxis](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#sintaxis)
 
-[Recuento del número de elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#recuento-del-n%C3%BAmero-de-elementos)
+[Recuento del número de elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#recuento-del-n%C3%BAmero-de-elementos)
 
-[Modificación de elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#modificaci%C3%B3n-de-elementos)
+[Modificación de elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#modificaci%C3%B3n-de-elementos)
 
-[Agregar elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#agregar-elementos)
+[Agregar elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#agregar-elementos)
 
-[Eliminar elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#eliminar-elementos)
+[Eliminar elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#eliminar-elementos)
 
-[Invertir el orden de los elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#invertir-el-orden-de-los-elementos)
+[Invertir el orden de los elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#invertir-el-orden-de-los-elementos)
 
-[Ordenar una lista](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#ordenar-una-lista)
+[Ordenar un array](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#ordenar-un-array)
 
-[Sub-Listas](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#sub-listas)
+[Arrays Multidimensionales](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#arrays-multidimensionales)
 
-[Listas Multidimensionales](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#listas-multidimensionales)
+[Creación de arrays en blanco](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#creaci%C3%B3n-de-arrays-en-blanco)
 
-[Creación de listas en blanco](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#creaci%C3%B3n-de-listas-en-blanco)
-
-[Recopilación](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md#recopilaci%C3%B3n-de-todo-lo-dado)
+[Recopilación](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#recopilaci%C3%B3n-de-todo-lo-dado)
 
 # Definición
 
 En primer lugar, debemos definir lo que es un `array`.
 
-Una `Lista` es un tipo de dato estructurado con una colección de elementos con valores o variables ( o incluso otras listas ).
+Un `array` es un tipo de dato estructurado con una colección de elementos con valores o variables ( o incluso otros arrays ).
 
 # Sintaxis
 
 Iniciamos una variable a la que le asignamos un valor de colección. La colección estará contenida entre corchetes `[]` y cada elemento separado por comas `,`
 
-```python
+Para imprimir un array en `php` usaremos `print_r`
 
-lista = ['Elemento1', 'Elemento2', 'Elemento3', 'Elemento4']
+```php
+
+$array = ['Elemento1', 'Elemento2', 'Elemento3', 'Elemento4'];
+
+print_r ($array); #Con print_r imprimiremos la estructura del array
 
 ```
 
 Para seleccionar un elemento, debemos saber su posición. La posicion es distinta al elemento, es decir, el `Elemento1` está en la posición 0. 
 el `Elemento2` está en la posicion 1.
 
-```python
+```php
 
-lista = ['Hola', 'soy', 'acruma', '.']
-print(lista[0]) #Mostrará el valor del primer elemento. (`Hola`)
+$array = ['Hola', 'soy', 'acruma', '.'];
+echo($array[0]); #Mostrará el valor del primer elemento. (`Hola`)
 
-print(lista[2]) #Mostrará el valor del tercer elemento. (`acruma`)
+echo($array[2]); #Mostrará el valor del tercer elemento. (`acruma`)
 
 ```
 
@@ -62,13 +64,13 @@ Tabla de posiciones de los elementos
 
 # Recuento del número de elementos
 
-Para saber cuantos elementos tiene una lista usaremos `len`
+Para saber cuantos elementos tiene una array usaremos `count`
 
-```python
+```php
 
-lista = ['Elemento1', 'Elemento2', 'Elemento3', 'Elemento4']
-numero_lista = len(lista)
-print(numero_lista) #Mostrará `4` que es el número de elementos.
+$array = ['Elemento1', 'Elemento2', 'Elemento3', 'Elemento4'];
+$numero_array = count($array);
+echo $numero_array; #Mostrará `4` que es el número de elementos.
 
 ```
 
@@ -76,116 +78,136 @@ print(numero_lista) #Mostrará `4` que es el número de elementos.
 
 Le asignaremos un nuevo valor a la posición deseada.
 
-```python
+```php
 
-numeros = [10, 12, 15, 20, 25]
-numeros[2] = 55   #La posicion 2 (15) pasará a valer (55) Resultado; [10, 12, 55, 20, 25]
-numeros[0] = 2    #Cambiaremos el primer elemento (10) pasará a valer (2) Resultado; [2, 12, 55, 20, 25]
-numeros[-1]= 0    #Cambiaremos el ultimo elemento (25) pasará a valer (0) Resultado; [2, 12, 55, 20, 0]
+$numeros = [10, 12, 15, 20, 25];
+$numeros[2] = 55;   #La posicion 2 (15) pasará a valer (55) Resultado; [10, 12, 55, 20, 25]
+$numeros[0] = 2;    #Cambiaremos el primer elemento (10) pasará a valer (2) Resultado; [2, 12, 55, 20, 25]
+$numeros[count($numeros) -1]= 0;    #Cambiaremos el ultimo elemento (25) pasará a valer (0) Resultado; [2, 12, 55, 20, 0]
 
-print(numeros)    #Se mostrará en pantalla [2, 12, 55, 20, 0]
+print_r($numeros);
 
 ```
 
 # Agregar elementos
 
-Para añadir usaremos `.insert`(  la posición y su valor ). Y para añadir al final de la lista usaremos `.append`( su valor )
+Para añadir un elemento al principio de un array usaremos `array_unshift($array, Valor)`. 
 
-```python
+Para añadir un elemento al final de un array usaremos `array_push($array, Valor)`. 
 
-colores = ['Rojo', 'Verde', 'Azul']
-colores.insert(2, 'Gris')   #Se agregará 'Gris' en la posicion (2)          Resultado; ['Rojo', 'Verde','Gris, 'Azul']
-colores.insert(0, 'Blanco') #Se agregará 'Blanco' al principio de la lista. Resultado; ['Blanco', 'Rojo', 'Verde','Gris, 'Azul']
-colores.append('Negro')     #Se agregará 'Negro' al final de la lista.      Resultado; ['Blanco', 'Rojo', 'Verde','Gris, 'Azul', 'Negro']
+Para añadir un elemento en una posicion deseada usaremos `array_splice($array, POSICION, 0, Valor)` 
 
-print(colores) # Se mostrará ['Blanco', 'Rojo', 'Verde','Gris, 'Azul', 'Negro']
+Importante, si el valor `0` se cambia por otro valor, se eliminará una porcion del array (siguientes X elementos). Vease en el siguiente apartado [Eliminar elementos](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md#eliminar-elementos). 
+
+```php
+
+$colores = ['Rojo', 'Verde', 'Azul'];
+
+array_splice($colores, 2, 0, 'Gris');   #Se agregará 'Gris' en la posicion (2)          Resultado; ['Rojo', 'Verde','Gris, 'Azul']
+array_unshift($colores, 'Blanco'); #Se agregará 'Blanco' al principio de la array. Resultado; ['Blanco', 'Rojo', 'Verde','Gris, 'Azul']
+array_push($colores, 'Negro');     #Se agregará 'Negro' al final de la array.      Resultado; ['Blanco', 'Rojo', 'Verde','Gris, 'Azul', 'Negro']
+
+print_r($colores); # Se mostrará ['Blanco', 'Rojo', 'Verde','Gris, 'Azul', 'Negro']
 
 ```
 
 # Eliminar elementos
 
-Para eleminiar un elemento usaremos `.pop` y la posicion del elemento a eliminar
+Para eliminar una cantidad X de elementos usaremos `array_splice($array, POSICION Inicial, Cantidad)` Donde cantidad empieza en el elemento "Posicion Inicial".
 
-```python
+Para eliminar el primer elemento `array_shift()`
 
-lenguajes = ['Python', 'Bash', 'PowerShell', 'Java']
-lenguajes.pop(2)			#Se eliminará el elemento en la posicion (2) es decir 'PowerShell' Resultado; ['Python', 'Bash', 'Java']
-lenguajes.pop(0)			#Se eliminará el primer elemento es decir 'Python' Resultado; ['Bash', 'Java']
-lenguajes.pop()				#Se eliminará el ultimo elemento es decir 'Java'   Resultado; ['Bash']
+Para eliminar el ultimo elemento `array_pop()`
 
-print(lenguajes)	# Se mostrará ['Bash']
+
+```php
+
+$lenguajes = ['php', 'Bash', 'PowerShell', 'Java'];
+
+array_splice($lenguajes, 2, 1);		#Se eliminará el elemento en la posicion (2) es decir 'PowerShell' Resultado; ['php', 'Bash', 'Java']
+array_shift($lenguajes);			#Se eliminará el primer elemento es decir 'php' Resultado; ['Bash', 'Java']
+array_pop($lenguajes);				#Se eliminará el ultimo elemento es decir 'Java'   Resultado; ['Bash']
+
+print_r($lenguajes);	# Se mostrará ['Bash']
 
 ```
 
 # Invertir el orden de los elementos
 
-Para invertir el orden de los elementos, usaremos `.reverse()`
+Para invertir el orden de los elementos, guardaremos en una variable el array invertido con `array_reverse()` .
 
-```python
+```php
 
-numeros = [10, 40, 20, 35]		
-letras = ['g', 'a', 'z', 'd']	
+$numeros = [10, 40, 20, 35];	
+$letras = ['g', 'a', 'z', 'd'];
 
-numeros.reverse()		#Resultado [35, 20, 40, 10]
-letras.reverse()		#Resultado ['d', 'z', 'a', 'g']
+$numeros_invertidos = array_reverse($numeros);		#Resultado [35, 20, 40, 10]
+$letras_invertidas = array_reverse($letras);		#Resultado ['d', 'z', 'a', 'g']
+
+print_r($numeros_invertidos);
+
+print_r($letras_invertidas);
 
 ```
 
-# Ordenar una lista
+# Ordenar un array
 
-Para ordenar una lista de menor a mayor (numeros) o en orden alfabetico (a > z) usaremos `sorted()`
+Para ordenar una array de menor a mayor (numeros) o en orden alfabetico (a > z) usaremos `sort()`
 
 
-```python
+```php
 
-numeros = [10, 40, 20, 35]
-letras = ['g', 'a', 'z', 'd']
+$numeros = [10, 40, 20, 35];
+$letras = ['g', 'a', 'z', 'd'];
 
-print(sorted(numeros))		#Resultado [10, 20, 35, 40]
+sort($numeros);	
+print_r($numeros); #Resultado [10, 20, 35, 40]
 
 #O guardandolo en una nueva variable
 
-letras_ordenadas = sorted(letras)
-print (letras_ordenadas)	#Resultado ['a', 'd', 'g', 'z']
+$letras_ordenadas = $letras;
+sort($letras_ordenadas);
+print_r($letras_ordenadas);	#Resultado ['a', 'd', 'g', 'z']
+
 
 ```
 
-Si combinamos en orden los pasos de "Ordenar una lista" e "Invertir el orden" conseguiremos ordenar una lista de mayor a menor (numeros)
+Si combinamos en orden los pasos de "Ordenar una array" e "Invertir el orden" conseguiremos ordenar una array de mayor a menor (numeros)
 o en orden alfabetico (z > a).
 
-# Sub-Listas
+# Sub-Arrays
 
-Podemos crear sub-listas apartir de una lista. Para ello usaremos `nombre_lista[inicio:fin]` Donde INICIO, es el primer elemento a seleccionar y FIN (si esta relleno) el ultimo -1.
+Podemos crear sub-arrays apartir de un array. Para ello usaremos `array_slice(array, punto_inicio, cantidad)` Donde INICIO, es el primer elemento a seleccionar y cantidad el numero de elementos a seleccionar.
 
-```python
+```php
 
-abecedario = ['a', 'b', 'c', 'd', 'e']
+$abecedario = ['a', 'b', 'c', 'd', 'e'];
 
-sub_abecedario1 = abecedario[:]		# Resultado ['a', 'b', 'c', 'd', 'e']
-sub_abecedario2 = abecedario[2:]	# Resultado ['c', 'd', 'e']
-sub_abecedario3 = abecedario[2:4]	# Resultado ['c', 'd'] Notese, el elemento 4 no se incluye
-sub_abecedario4 = abecedario[-3:-2]	# Resultado ['c'] Notese, el elemento -2 no se incluye
+$sub_abecedario1 = array_slice($abecedario, 0);		# Resultado ['a', 'b', 'c', 'd', 'e']
+$sub_abecedario2 = array_slice($abecedario, 2);	# Resultado ['c', 'd', 'e']
+$sub_abecedario3 = array_slice($abecedario, 2, 2);	# Resultado ['c', 'd'] Empezamos en elemento 2 y cogemos 2 (el 2 inclusive)
+$sub_abecedario4 = array_slice($abecedario, -3, -2);	# Resultado ['c'] 
 
 ```
 
-# Listas multidimensionales
+
+# Arrays multidimensionales
 
 (Es un concepto abstracto a veces dificil de comprender)
 
-A continuacion se mostrará como crear una lista con mas de una dimension, es decir, `2D`, `3D`, `4D` etc..
+A continuacion se mostrará como crear una array con mas de una dimension, es decir, `2D`, `3D`, `4D` etc..
 
 
-```python
+```php
 
-lista2d = [  [0,1,2], [1,1,2], [2,1,2], [3,1,2]  ]
+$array2d = [  [0,1,2], [1,1,2], [2,1,2], [3,1,2]  ];
 
-print(lista2d[3][0])		# Mostrariamos el elemento [3] de la primera dimension ( [3,1,2] ) 
+print_r($array2d[3][0]);		# Mostrariamos el elemento [3] de la primera dimension ( [3,1,2] ) 
 				# Y luego el elemento[0] de la segunda dimension que seria el "3"
 						
-						
-lista3d = [   [[0,1,2], [1,1,2]]   ,   [[2,1,2], [3,1,2]]   ] 
+$array3d = [   [[0,1,2], [1,1,2]]   ,   [[2,1,2], [3,1,2]]   ] ;
 
-print(lista3d[0][1][2]) # Mostrariamos el elemento [0] de la primera dimension [[0,1,2], [1,1,2]]
+print_r($array3d[0][1][2]); # Mostrariamos el elemento [0] de la primera dimension [[0,1,2], [1,1,2]]
 			# Luego mostrariamos el elemento [1] de la segunda dimension [1,1,2]
 			# Y por ultimo el elemento [2] de la tercera dimension "2"
 
@@ -193,15 +215,15 @@ print(lista3d[0][1][2]) # Mostrariamos el elemento [0] de la primera dimension [
 
 Se puede operar con lo aprendido hasta ahora, con cualquier tabla multidimensional.
 
-# Creacion de listas en blanco
+# Creacion de arrays en blanco
 
-Podemos crear una lista en blanco. ( Por ejemplo, para rellenar mas tarde )
+Podemos crear una array en blanco. ( Por ejemplo, para rellenar mas tarde )
 
-```python
+```php
 
-lista_vacia_1d = []                      # Crea una lista vacia de 1 dimension
-lista_vacia_2d = [ [] ]                  # Crea una lista vacia de 2 dimensiones
-lista_vacia_3d = [ [ [] ] ]              # Crea una lista vacia de 3 dimensiones
+$array_vacia_1d = [];                      # Crea una array vacia de 1 dimension
+$array_vacia_2d = [ [] ];                  # Crea una array vacia de 2 dimensiones
+$array_vacia_3d = [ [ [] ] ];              # Crea una array vacia de 3 dimensiones
 
 #Etcétera...
 
@@ -209,40 +231,44 @@ lista_vacia_3d = [ [ [] ] ]              # Crea una lista vacia de 3 dimensiones
 
 # Recopilación de todo lo dado.
 
-```python
+```php
 
-lista_2d_vacia = [[],[]] # Lista 2 dimensiones
+<?php
 
-print(len(lista_2d_vacia)) # Mostrará que tiene 2 elementos
+$array_2d_vacia = [[],[]]; # array 2 dimensiones
 
-lista_2d_vacia[0].insert(0, 4.1) # Agregamos al elemento 0-0 > 4.1
-lista_2d_vacia[0].insert(1, 2)   # Agregamos al elemento 0-1 > 2
+echo count($array_2d_vacia) . PHP_EOL; # Mostrará que tiene 2 elementos
 
-lista_2d_vacia[1].append('Acruma') # Agregamos a la ultima posicion del elemnto 1 > 'Acruma'
-lista_2d_vacia[1].append('Soy')   # Agregamos a la ultima posicion del elemnto 1 > 'Soy'
+array_push($array_2d_vacia[0], 4.1, 2); # Agregamos al elemento 0-0 > 4.1 // Agregamos al elemento 0-1 > 2
 
-lista_2d = lista_2d_vacia   # Volcar valor a nueva variable
+array_push($array_2d_vacia[1], 'Acruma'); # Agregamos a la ultima posicion del elemnto 1 > 'Acruma'
+array_push($array_2d_vacia[1], 'Soy');   # Agregamos a la ultima posicion del elemnto 1 > 'Soy'
 
-print(lista_2d) 	# Mostrará [  [4.1, 2]  ,  ['Acruma', 'Soy']  ]
+$array_2d = $array_2d_vacia;   # Volcar valor a nueva variable
 
-lista_2d[0][1] = 10 # Modificamos 0-1 que tenia de valor "2" a valor "10"
+print_r($array_2d); 	# Mostrará [  [4.1, 2]  ,  ['Acruma', 'Soy']  ]
 
-lista_2d[1].pop(1)  # Eliminamos  1-1 que tenia de valor 'Soy'
+$array_2d[0][1] = 10; # Modificamos 0-1 que tenia de valor "2" a valor "10"
 
-lista_2d_vacia[1].append('te') # Agregamos a la ultima posicion del elemnto 1 > 'te'
-lista_2d_vacia[1].append('enseña') # Agregamos a la ultima posicion del elemnto 1 > 'enseña'
-lista_2d_vacia[1].append('Python') # Agregamos a la ultima posicion del elemnto 1 > 'Python'
+array_pop($array_2d[1]);  # Eliminamos  1-1 que tenia de valor 'Soy'
 
-print(lista_2d)     # [[4.1, 10], ['Acruma', 'te', 'enseña', 'Python']]
+array_push($array_2d[1], 'te'); # Agregamos a la ultima posicion del elemnto 1 > 'te'
+array_push($array_2d[1], 'enseña'); # Agregamos a la ultima posicion del elemnto 1 > 'enseña'
+array_push($array_2d[1], 'PHP'); # Agregamos a la ultima posicion del elemnto 1 > 'PHP'
 
-lista_2d[0].reverse() # Le damos la vuelta al elemento 0
-lista_2d[1] = sorted(lista_2d[1]) # Ordenamos alfabeticamente el elemento 1
+print_r($array_2d);     # [[4.1, 10], ['Acruma', 'te', 'enseña', 'PHP']]
 
-print(lista_2d) # Mostrará [[10, 4.1], ['Acruma', 'Python', 'enseña', 'te']] -- ( Mayúsculas primero )
+$array_2d_r = array_reverse($array_2d[0]); # Le damos la vuelta al elemento 0 y lo guardamos en otra variable
+$array_2d[0] = $array_2d_r;	#Guardamos la variable en el elemento [0] del array original
+sort($array_2d[1]); # Ordenamos alfabeticamente el elemento 1
 
-sub_lista_2d = lista_2d[1][1:3]  # Elegimos del elemento 1. Los elementos 1 y 2 ( el 3 no se selecciona, recuerdalo )
+print_r($array_2d); # Mostrará [[10, 4.1], ['Acruma', 'PHP', 'enseña', 'te']] -- ( Mayúsculas primero )
 
-print(sub_lista_2d)  # Mostrará ['Python', 'enseña']
+$sub_array_2d = array_slice($array_2d[1], 1, 2);  # Elegimos del elemento 1. Los elementos desde el 1 seleccionamos 2
+
+print_r($sub_array_2d);  # Mostrará ['PHP', 'enseña']
+
+?>
 
 ```
 
