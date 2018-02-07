@@ -1,6 +1,6 @@
-# Learn Bash, Java, PHP, PowerShell, Python  
+# Aprenda Bash, Java, PHP, PowerShell, Python  
 
-# Tutorial;  
+# Tutoriales;  
 
  *Bash* | *Java* | *PHP* | *PowerShell* | *Python* 
 --|--|--|--|--
