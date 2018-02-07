@@ -181,6 +181,8 @@ o en orden alfabetico (z > a).
 
 Podemos crear sub-arrays apartir de un array. Para ello usaremos `array_slice(array, punto_inicio, cantidad)` Donde INICIO, es el primer elemento a seleccionar y cantidad el numero de elementos a seleccionar.
 
+En cambio si el 3º valor es un valor en negativo EJ: `array_slice(array, punto_inicio, -2` seleccionara hasta el elemento -2 (sin seleccionarlo) asi que podriamos decir que seria `array_slice(Array, Inicio, -Fin)`.
+
 ```php
 
 $abecedario = ['a', 'b', 'c', 'd', 'e'];
@@ -188,7 +190,7 @@ $abecedario = ['a', 'b', 'c', 'd', 'e'];
 $sub_abecedario1 = array_slice($abecedario, 0);		# Resultado ['a', 'b', 'c', 'd', 'e']
 $sub_abecedario2 = array_slice($abecedario, 2);	# Resultado ['c', 'd', 'e']
 $sub_abecedario3 = array_slice($abecedario, 2, 2);	# Resultado ['c', 'd'] Empezamos en elemento 2 y cogemos 2 (el 2 inclusive)
-$sub_abecedario4 = array_slice($abecedario, -3, -2);	# Resultado ['c'] 
+$sub_abecedario4 = array_slice($abecedario, -3, -2);	# Resultado ['c'] Notese que -2 no se selecciona.
 
 ```
 
