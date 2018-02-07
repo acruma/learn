@@ -6,6 +6,7 @@
 --|--|--|--|--
 [BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/bash.md)|[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/java.md)|[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/php.md)|[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/powershell.md)|[BASIC](https://github.com/acruma/learn/blob/master/spanish/basic/python.md)
 --|--|[Arrays](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/php.md)|--|[Arrays](https://github.com/acruma/learn/blob/master/spanish/basic2/arrays/python.md)
+--|--|[Condicionales](--|--|--|--|--)|--|--
 
 
 ***
