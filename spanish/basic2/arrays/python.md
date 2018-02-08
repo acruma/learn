@@ -193,7 +193,7 @@ print(lista3d[0][1][2]) # Mostrariamos el elemento [0] de la primera dimension [
 
 Se puede operar con lo aprendido hasta ahora, con cualquier tabla multidimensional.
 
-# Creacion de listas en blanco
+# Creación de listas en blanco
 
 Podemos crear una lista en blanco. ( Por ejemplo, para rellenar mas tarde )
 
