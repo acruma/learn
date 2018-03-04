@@ -23,6 +23,8 @@ Pulsamos en instalar... Y LISTO!
 
 Generalmente Python viene instalado en las distribuciones de GNU/Linux. No obstante podemos ........
 
+Por rellenar
+
 ***
 
 # Ejecución en Windows
