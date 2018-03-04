@@ -1,6 +1,6 @@
-A continuación se encuentra un tutorial sobre todo lo que debe saber acerca de Python. Se intentará explicar con todo detalle y lo mas claramente posible (( dentro de mis límites )).
+A continuación se encuentra un tutorial sobre todo lo que debe saber acerca de [Python](https://es.wikipedia.org/wiki/Python). Se intentará explicar con todo detalle y lo mas claramente posible (( dentro de mis límites )).
 
-Para poder crear archivos en Python, deberemos hacerlo con un editor de texto plano como... `Notepad++, Geany, SublimeText, BlocdeNotas`, podemos usar el que mas nos guste. Un archivo Python tiene como extensión `.py` .
+Para poder crear archivos en Python, deberemos hacerlo con un editor de texto plano como por ejemplo... [Notepad++](https://notepad-plus-plus.org/download/v7.5.5.html), [Geany](https://www.geany.org/Download/Releases), [SublimeText](http://www.sublimetext.com/) o Bloc de Notas... podemos usar el que mas nos guste. Un archivo Python tiene como extensión `.py` .
 
 En este tutorial usaremos Python en su versión mas reciente `Python 3.6.4` (A dia de hoy 04/03/2018). Indicar que la diferencia mas significativa entre Python2 y Python3 es sintactica.
 
