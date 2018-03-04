@@ -1,5 +1,7 @@
 A continuación se encuentra un tutorial sobre todo lo que debe saber acerca de Python. Se intentará explicar con todo detalle y lo mas claramente posible (( dentro de mis límites )).
 
+Se recomienda seguir un orden listado [aquí]()
+
 Para poder crear archivos en Python, deberemos hacerlo con un editor de texto plano como... `Notepad++, Geany, SublimeText, BlocdeNotas`, podemos usar el que mas nos guste. Un archivo Python tiene como extensión `.py` .
 
 En este tutorial usaremos Python en su versión mas reciente `Python 3.6.4` (A dia de hoy 04/03/2018). Indicar que la diferencia mas significativa entre Python2 y Python3 es sintactica.
@@ -42,4 +44,14 @@ Y, aunque no lo recomiendo es posible hacer doble click en un archivo `.py` se a
 Desde una terminal podemos ejecutar un archivo Python `.py` escribiendo `python3 + ruta_archivo.py`
 
 >Si nos encontramos en la terminal en la misma carpeta donde se encuentra el archivo no es necesario poner la ruta entera, tan solo el nombre del archivo `.py`
+
+# Pasos a seguir
+
+[Variables]()
+[Listas]()
+[Concidionales]()
+[Bucles]()
+[Funciones]()
+[Clases]()
+[Librerias]()
 
