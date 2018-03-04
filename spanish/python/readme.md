@@ -2,7 +2,7 @@ A continuación se encuentra un tutorial sobre todo lo que debe saber acerca de 
 
 Para poder crear archivos en Python, deberemos hacerlo con un editor de texto plano, podemos usar el que mas nos guste. Un archivo Python tiene como extensión `.py` .
 
-En este tutorial trataremos acerca de Python en su versión mas reciente `Python 3.6.4` (A dia de hoy 04/03/2018)
+En este tutorial usaremos Python en su versión mas reciente `Python 3.6.4` (A dia de hoy 04/03/2018). Indicar que la diferencia mas significativa entre Python2 y Python3 es sintactica.
 
 En primer lugar, deberemos instalar Python en nuestro ordenador.
 
