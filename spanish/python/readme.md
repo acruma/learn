@@ -1,6 +1,6 @@
 A continuación se encuentra un tutorial sobre todo lo que debe saber acerca de Python. Se intentará explicar con todo detalle y lo mas claramente posible (( dentro de mis límites )).
 
-Se recomienda seguir un orden listado [aquí]()
+Se recomienda seguir un orden listado [aquí](https://github.com/acruma/learn/blob/master/spanish/python/readme.md#pasos-a-seguir)
 
 Para poder crear archivos en Python, deberemos hacerlo con un editor de texto plano como... `Notepad++, Geany, SublimeText, BlocdeNotas`, podemos usar el que mas nos guste. Un archivo Python tiene como extensión `.py` .
 
@@ -48,10 +48,16 @@ Desde una terminal podemos ejecutar un archivo Python `.py` escribiendo `python3
 # Pasos a seguir
 
 [Variables]()
+
 [Listas]()
+
 [Concidionales]()
+
 [Bucles]()
+
 [Funciones]()
+
 [Clases]()
+
 [Librerias]()
 
