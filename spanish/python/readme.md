@@ -16,6 +16,7 @@ Instalación de ser necesaria ( dictada mas abajo )
 
 [Librerias]()
 
+***
 
 A continuación se encuentra un tutorial sobre todo lo que debe saber acerca de [Python](https://es.wikipedia.org/wiki/Python). Se intentará explicar con todo detalle y lo mas claramente posible (( dentro de mis límites )).
 
