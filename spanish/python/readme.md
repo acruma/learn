@@ -1,3 +1,22 @@
+# Pasos a seguir
+
+Instalación de ser necesaria ( dictada mas abajo )
+
+[Variables]()
+
+[Listas]()
+
+[Concidionales]()
+
+[Bucles]()
+
+[Funciones]()
+
+[Clases]()
+
+[Librerias]()
+
+
 A continuación se encuentra un tutorial sobre todo lo que debe saber acerca de [Python](https://es.wikipedia.org/wiki/Python). Se intentará explicar con todo detalle y lo mas claramente posible (( dentro de mis límites )).
 
 Para poder crear archivos en Python, deberemos hacerlo con un editor de texto plano como por ejemplo... [Notepad++](https://notepad-plus-plus.org/download/v7.5.5.html), [Geany](https://www.geany.org/Download/Releases), [SublimeText](http://www.sublimetext.com/) o Bloc de Notas... podemos usar el que mas nos guste. Un archivo Python tiene como extensión `.py` .
@@ -45,19 +64,4 @@ Desde una terminal podemos ejecutar un archivo Python `.py` escribiendo `python3
 
 >Si nos encontramos en la terminal en la misma carpeta donde se encuentra el archivo no es necesario poner la ruta entera, tan solo el nombre del archivo `.py`
 
-# Pasos a seguir
-
-[Variables]()
-
-[Listas]()
-
-[Concidionales]()
-
-[Bucles]()
-
-[Funciones]()
-
-[Clases]()
-
-[Librerias]()
 
