@@ -34,7 +34,7 @@ Una vez nombrada la igualaremos con el simbolo `=` y a continuación le asignare
      altura     =  100        #El valor "100" se le asigna a la variable "altura"	
 ```
 
-Los cuatro tipos más básicos de variables son los que siguen.
+Los cuatro tipos más básicos de variables son los que siguen. Aunque en Python no hay que señalar que tipo de dato le vas a asignar a una variable, no obstante es muy importante saber con que tipo de dato estamos trabajando para poder operar con ellos.
 
 Integer  - [Número entero]()
 
