@@ -37,12 +37,15 @@ Una vez nombrada la igualaremos con el simbolo `=` y a continuación le asignare
 Los cuatro tipos más básicos de variables son los que siguen.
 
 Integer  - [Número entero]()
+
 Float    - [Número real]()
+
 String   - [Cadena de caracteres]()
+
 Boolean  - [Dato lógico]()
 
 ```Python
-edad = 34 		      	#"Integer" (numeros enteros)
+edad = 34 			#"Integer" (numeros enteros)
 recorrido = 132.23   	#"Float"  (numeros reales)
 nombre = "Acruma"    	#"String"  (cadena de caracteres)
 comparativas = True 	#"Boolean" (valores "True" o "False")
