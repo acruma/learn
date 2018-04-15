@@ -19,8 +19,10 @@ Comentarios de una sola línea usando el caracter reservado `#` o podemos hacerl
  '''
  ```
  
- Y ahora... empecemos con las Variables mas básicas.
+ ***
  
+ Y ahora... empecemos con las Variables mas básicas.
+
  ### Variables
  
  Como en cualquier lenguage hay que seguir una sintaxis especifica del mismo. La sintaxis en Python es la siguiente;
@@ -51,4 +53,39 @@ nombre = "Acruma"    	#"String"  (cadena de caracteres)
 comparativas = True 	#"Boolean" (valores "True" o "False")
 ```
 
+***
 
+### Estructura e impresiones en pantalla
+
+Hay que saber estructurar correctamente un programa para que se ejecute en el orden que deseemos. Para ello, debemos saber como se recorre nuestro codigo cuando se esta ejecutando. Es bastante simple, el codigo se ejecuta de la misma manera en que nosotros leemos, es decir... De arriba a abajo, sabiendo que cada LINEA de codigo corresponde a una interacción.
+
+Ejemplo;
+
+```Python
+edad = 34     # Esta es la primera linea que se va a ejecutar. En este caso, como en las demas lineas...
+recorrido = 132.23   	# ... Tan solo estamos asignando valores a variables ...
+nombre = "Acruma"    	
+comparativas = True 	# ... Y esta será la ultima linea en ejecutarse.
+```
+
+Para poder ver en pantalla los valores que deseemos, usaremos la funcion `PRINT()` que funciona de la siguiente manera;
+
+```Python
+print( VALOR A MOSTRAR )
+```
+Ejemplos;
+
+```Python
+print("Esto es una frase") #Se mostrará en pantalla "Esto es una frase"
+print(edad)		 #Se mostrará en pantalla la variable "edad"
+```
+Para mostrar más de una variable se hace mediante concatenación de variables y/o texto, con una coma ","
+
+```Python
+print(edad, " ", nombre)
+#Se mostrará en pantalla la variable "edad" seguido de un espacio " " y la variable "nombre"
+```
+
+***
+
+### Operaciones aritméticas con números
